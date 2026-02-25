@@ -9,7 +9,7 @@ HandiWay est une Progressive Web App (PWA) révolutionnaire conçue pour simplif
 ## Ce Dépôt Contient
 
 - Code source **Next.js PWA** (Dossier `src`) : Frontend réactif avec carte `react-leaflet`.
-- **HandiWay_Guide_Windows_A_Z.pdf** : Un guide Windows Terminal de plus de 90 pages expliquant comment installer et développer ce projet de A à Z via ligne de commande (Garanti 20/20).
+- **HandiWay_Guide_Windows_VSCode_A_Z.pdf** : Un guide Windows Terminal et VS Code de plus de 90 pages expliquant comment installer et développer ce projet de A à Z via ligne de commande (Garanti 20/20).
 - Scripts d'icônes PWA.
 
 ## Features
