@@ -122,10 +122,10 @@ class HandiWayPDF(FPDF):
         self.set_fill_color(248, 250, 252) # slate-50
         
         # Adding line numbers for pedagogical reasons
-        lines = code_content.split('\\n')
+        lines = code_content.split('\n')
         code_with_lines = ""
         for i, line in enumerate(lines, 1):
-            code_with_lines += f"{i:02d} |  {line}\\n"
+            code_with_lines += f"{i:02d} |  {line}\n"
             
         self.multi_cell(0, 6, code_with_lines, fill=True)
         self.ln(6)
@@ -149,14 +149,14 @@ def generate_pdf():
     pdf.chapitre("Partie 2 : Préparation de la Forge (Outils)")
     pdf.section("1. L'installation propre de NodeJS et VS Code")
     pdf.paragraphes("Un menuisier a besoin d'un établi. Le nôtre sera 'Node.js' (le moteur qui comprend notre code) et 'VS Code' (notre outil pour écrire le code de façon lisible et colorée). Oubliez les recherches Google pour trouver les installateurs. Nous allons utiliser la vraie méthode de professionnel : 'winget'.")
-    pdf.terminal("winget install OpenJS.NodeJS\\nwinget install Microsoft.VisualStudioCode", "Ouvrez PowerShell en mode Administrateur, et copiez ces lignes :")
+    pdf.terminal("winget install OpenJS.NodeJS\nwinget install Microsoft.VisualStudioCode", "Ouvrez PowerShell en mode Administrateur, et copiez ces lignes :")
     pdf.justification("La puissance de Winget", "Winget est le gestionnaire de paquets de Windows. Il va sur les serveurs sécurisés de Microsoft, trouve la dernière version certifiée sans virus, la télécharge et l'installe silencieusement. Pas de cases à décocher pour éviter d'installer des antivirus parasites. C'est pur et professionnel.")
     
     pdf.section("2. Création du Sanctuaire (Le Projet)")
     pdf.paragraphes("Nous allons dire au Terminal d'aller dans vos 'Documents' et d'invoquer la création du projet Next.js. Next.js est notre 'framework' : il nous fournit les fondations d'une maison déjà construite, nous n'avons plus qu'à faire la décoration et l'électricité.")
-    pdf.terminal("cd $env:USERPROFILE\\Documents\\nmkdir 01_Projets_Dev\\ncd 01_Projets_Dev\\nnpx create-next-app@latest handiway", "'cd' veut dire 'Change Directory' (Changer de dossier). 'mkdir' veut dire 'Make Directory' (Créer un dossier).")
+    pdf.terminal("cd $env:USERPROFILE\\Documents\nmkdir 01_Projets_Dev\ncd 01_Projets_Dev\nnpx create-next-app@latest handiway", "'cd' veut dire 'Change Directory' (Changer de dossier). 'mkdir' veut dire 'Make Directory' (Créer un dossier).")
     pdf.paragraphes("L'outil va vous poser des questions. Voici les réponses OBLIGATOIRES pour notre architecture avancée :")
-    pdf.terminal("TypeScript? Yes (Pour éviter les bugs silencieux)\\nESLint? Yes (Le gardien de la grammaire du code)\\nTailwind CSS? Yes (Notre moteur de design Apple-like)\\nsrc/ directory? Yes (Pour ranger notre code isolément)\\nApp Router? Yes (La magie du routing moderne)")
+    pdf.terminal("TypeScript? Yes (Pour éviter les bugs silencieux)\nESLint? Yes (Le gardien de la grammaire du code)\nTailwind CSS? Yes (Notre moteur de design Apple-like)\nsrc/ directory? Yes (Pour ranger notre code isolément)\nApp Router? Yes (La magie du routing moderne)")
     
     # --- LECTURE ET EXPLICATION DU CODE RÉEL ---
     pdf.chapitre("Partie 3 : Autopsie du Code HandiWay (Ligne par Ligne)")
@@ -220,7 +220,7 @@ def generate_pdf():
             
             pdf.paragraphes("L'informatique n'est ni plus ni moins que du langage. Nous tapons des mots en anglais (function, return, import) qui sont ensuite compilés en langage binaire (des 0 et des 1) au rythme des impulsions électriques du processeur de la carte mère. À chaque fois que vous exécutez 'npm run dev', des millions de calculs sont réalisés en une fraction de seconde pour afficher 'HandiWay'.")
             
-            pdf.terminal("npm run build\\nnpm start", "Ces commandes, contrairement à 'run dev', optimisent et compressent le code de manière agressive pour le préparer au VRAI MÉTROPOLITAIN d'internet : Le déploiement (Production).")
+            pdf.terminal("npm run build\nnpm start", "Ces commandes, contrairement à 'run dev', optimisent et compressent le code de manière agressive pour le préparer au VRAI MÉTROPOLITAIN d'internet : Le déploiement (Production).")
 
     pdf.chapitre("Conclusion : L'aboutissement du Projet")
     pdf.paragraphes("Félicitations. Vous avez non seulement généré tout le code de l'application HandiWay avec brio, mais vous avez également assimilé les fondations académiques et professionnelles pour expliquer chaque ligne à votre jury ou votre client. L'environnement Windows Terminal, bien maîtrisé, fait de vous un développeur confiant, autonome et capable de s'adapter à toutes les futures vagues d'innovations Javascript.")
