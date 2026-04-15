@@ -49,3 +49,10 @@ Ouvrez `http://localhost:3000` dans votre navigateur.
 
 - Initial release - Interface PWA Complète
 - Rédaction du Guide Windows Terminal A-Z (sans images)
+
+
+---
+
+<p align="center">
+  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> · Data Engineer & Fullstack Developer · <a href="https://github.com/Adam-Blf">GitHub</a></sub>
+</p>
