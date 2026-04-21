@@ -1,6 +1,11 @@
 # HandiWay
 
-![Status](https://img.shields.io/badge/status-ready-brightgreen)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Next.js](https://img.shields.io/badge/Next.js_16-000?logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?logo=react&logoColor=black)
+![PWA](https://img.shields.io/badge/PWA-installable-5A0FC8)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?logo=leaflet&logoColor=white)
 
 ## Description
 
