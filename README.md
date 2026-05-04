@@ -1,5 +1,10 @@
 # HandiWay
 
+<!-- adam-badges:start -->
+[![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/hadiway?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/hadiway/commits) [![visites](https://hits.sh/github.com/Adam-Blf/hadiway.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/hadiway/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/hadiway?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/hadiway/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/hadiway?style=flat-square)](https://github.com/Adam-Blf/hadiway) [![license](https://img.shields.io/github/license/Adam-Blf/hadiway?style=flat-square&color=D4A437)](LICENSE)
+<!-- adam-badges:end -->
+
+
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Next.js](https://img.shields.io/badge/Next.js_16-000?logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
