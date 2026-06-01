@@ -16,6 +16,24 @@
 
 HandiWay est une Progressive Web App (PWA) révolutionnaire conçue pour simplifier la mobilité des Personnes à Mobilité Réduite (PMR). L'application offre un calcul d'itinéraire accessible et la possibilité de signaler collaborativement des obstacles, avec une interface Premium "Apple-like".
 
+## Architecture
+
+```mermaid
+flowchart TB
+    Layout["src/app/layout.tsx<br/>Next.js App Router · métadonnées PWA · next-pwa"]
+    Page["src/app/page.tsx<br/>page principale · UI Apple-like · lucide-react"]
+    Map["src/components/Map/MapComponent.tsx<br/>carte interactive · chargée en dynamic SSR off"]
+    Leaflet["react-leaflet · leaflet<br/>tuiles · marqueurs POI · itinéraire simulé"]
+    Motion["framer-motion<br/>animations · transitions"]
+    SW["next-pwa<br/>service worker · manifest · offline · installable"]
+
+    Layout --> Page
+    Layout --> SW
+    Page --> Map
+    Page --> Motion
+    Map --> Leaflet
+```
+
 ## Ce Dépôt Contient
 
 - Code source **Next.js PWA** (Dossier `src`) : Frontend réactif avec carte `react-leaflet`.
