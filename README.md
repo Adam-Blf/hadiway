@@ -20,12 +20,12 @@ HandiWay est une Progressive Web App (PWA) révolutionnaire conçue pour simplif
 
 ```mermaid
 flowchart TB
-    Layout["src/app/layout.tsx<br/>Next.js App Router · métadonnées PWA · next-pwa"]
-    Page["src/app/page.tsx<br/>page principale · UI Apple-like · lucide-react"]
-    Map["src/components/Map/MapComponent.tsx<br/>carte interactive · chargée en dynamic SSR off"]
-    Leaflet["react-leaflet · leaflet<br/>tuiles · marqueurs POI · itinéraire simulé"]
-    Motion["framer-motion<br/>animations · transitions"]
-    SW["next-pwa<br/>service worker · manifest · offline · installable"]
+    Layout["src/app/layout.tsx<br/>Next.js App Router - métadonnées PWA - next-pwa"]
+    Page["src/app/page.tsx<br/>page principale - UI Apple-like - lucide-react"]
+    Map["src/components/Map/MapComponent.tsx<br/>carte interactive - chargée en dynamic SSR off"]
+    Leaflet["react-leaflet - leaflet<br/>tuiles - marqueurs POI - itinéraire simulé"]
+    Motion["framer-motion<br/>animations - transitions"]
+    SW["next-pwa<br/>service worker - manifest - offline - installable"]
 
     Layout --> Page
     Layout --> SW
@@ -82,7 +82,7 @@ Ouvrez `http://localhost:3000` dans votre navigateur.
 ---
 
 <p align="center">
-  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> · Data Engineer &amp; Fullstack Developer · <a href="https://github.com/Adam-Blf">GitHub</a> · <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
+  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> - Data Engineer &amp; Fullstack Developer - <a href="https://github.com/Adam-Blf">GitHub</a> - <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
 </p>
 
 
