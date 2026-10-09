@@ -78,7 +78,7 @@ Ouvrez `http://localhost:3000` dans votre navigateur.
 - Tailwind CSS
 - React-Leaflet
 - Framer Motion
-- Lucide React
+- Reicon (reicon-react)
 - next-pwa
 
 ## Changelog
