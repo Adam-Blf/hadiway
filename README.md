@@ -22,7 +22,7 @@ HandiWay est une Progressive Web App (PWA) révolutionnaire conçue pour simplif
 ```mermaid
 flowchart TB
     Layout["src/app/layout.tsx<br/>Next.js App Router - métadonnées PWA - next-pwa"]
-    Page["src/app/page.tsx<br/>page principale - UI Apple-like - lucide-react"]
+    Page["src/app/page.tsx<br/>page principale - UI Apple-like - reicon-react"]
     Map["src/components/Map/MapComponent.tsx<br/>carte interactive - chargée en dynamic SSR off"]
     Leaflet["react-leaflet - leaflet<br/>tuiles - marqueurs POI - itinéraire simulé"]
     Motion["framer-motion<br/>animations - transitions"]

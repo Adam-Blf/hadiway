@@ -1,6 +1,6 @@
 {
   "name": "hadiway",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,12 +13,12 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.34.3",
     "leaflet": "^1.9.4",
-    "lucide-react": "^0.575.0",
     "next": "16.1.6",
     "next-pwa": "^5.6.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-leaflet": "^5.0.0",
+    "reicon-react": "^1.2.6",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
