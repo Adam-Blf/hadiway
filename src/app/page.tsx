@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import { Menu, Navigation, AlertTriangle } from 'lucide-react';
+import { AlertTriangle, Menu, Pointer } from "reicon-react";
 
 const MapComponent = dynamic(() => import('@/components/Map/MapComponent'), {
   ssr: false,
@@ -42,7 +42,7 @@ export default function Home() {
           className="flex items-center justify-center w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95 cursor-pointer"
           aria-label="Ma position"
         >
-          <Navigation className="w-6 h-6" />
+          <Pointer className="w-6 h-6" />
         </button>
       </div>
 
